@@ -25,11 +25,11 @@ from player_stats import (
 
 # Establish connection to database (edit accordingly)
 conn = mysql.connector.connect(
-    host="127.0.0.1",
+    host="compsci.adelphi.edu",
     port=3306,
-    user="pepper",
-    password="",
-    database="pepper",
+    user="josephblake",
+    password="M6cP31N8",
+    database="josephblake",
 )
 
 def main():
